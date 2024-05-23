@@ -7,49 +7,35 @@ This package contains tiles from the Watercolor Map Tiles by Stamen Design set.
 
 ## Usage
 
-The tiles can be used offline, be self-hosted, or accessed via the included CDN link for easy integration into web mapping applications.
+The tiles can be used offline, hosted on your own servers, or accessed via the included CDN link for easy integration into web mapping applications.
 
-To install offline via NPM: 
+To install the tiles offline via NPM, use:
 ```
 npm install @freetiler/watercolor
 ```
 
 ### CDN Links
 
-You can use any NPM CDN to serve the tiles.
+You can use any NPM or Github CDN to serve the tiles. 
 
 ```
+GitHub CDN - Zoom 0-8: 
+ - https://cdn.jsdelivr.net/gh/freetiler/watercolor/tiles/{z}/{x}/{y}.jpg
+ 
+NPM CDNs - Zoom 0-7:
  - https://esm.sh/@freetiler/watercolor/tiles/{z}/{x}/{y}.jpg
  - https://unpkg.com/@freetiler/watercolor/tiles/{z}/{x}/{y}.jpg
 ```
 
-### Tile Access Pattern
-
-- `{z}` represents the zoom level (from 0 to 7).
-- `{x}` and `{y}` represent the tile coordinates at the given zoom level.
-
 ## Tile Specs:
 
 - **Minimum Zoom Level**: 0
-- **Maximum Zoom Level**: 7
+- **Maximum Zoom Level on NPM**: 7
+- **Maximum Zoom Level on Github**: 8
 - **Projection Used**: EPSG:3857
 - **Tile Size**: 256x256
 - **Tile Format**: JPEG
-- **Attribution**: "FreeTiler | Map tiles by Stamen Design, under CC BY 4.0. Data by OpenStreetMap, under CC BY SA."
-
-### Example
-
-Using it with Leaflet:
-
-```javascript
-  // If you have examples please create pull request.
-```
-
-Using it with OpenLayers:
-
-```javascript
-  // If you have examples please create pull request.
-```
+- **Attribution**: "FreeTiler.com | Map tiles by Stamen Design, under CC BY 4.0. Data by OpenStreetMap, under CC BY SA."
 
 ## License
 
