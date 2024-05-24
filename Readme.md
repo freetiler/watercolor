@@ -1,15 +1,15 @@
-
 # Watercolor Map Tiles by Stamen Design
 
-![npm](https://img.shields.io/npm/v/@freetiler/watercolor)
-
 This package contains tiles from the Watercolor Map Tiles by Stamen Design set. 
+
+![Planet](planet.jpg)
 
 ## Usage
 
 The tiles can be used offline, hosted on your own servers, or accessed via the included CDN link for easy integration into web mapping applications.
+![npm](https://img.shields.io/npm/v/@freetiler/watercolor)
 
-To install the tiles offline via NPM, use:
+To install the tiles offline via [NPM](https://www.npmjs.com/package/@freetiler/watercolor), use:
 ```
 npm install @freetiler/watercolor
 ```
@@ -19,12 +19,9 @@ npm install @freetiler/watercolor
 You can use any NPM or Github CDN to serve the tiles. 
 
 ```
-GitHub CDN - Zoom 0-8: 
+GitHub CDNs - Zoom 0-8: 
  - https://cdn.jsdelivr.net/gh/freetiler/watercolor/tiles/{z}/{x}/{y}.jpg
- 
-NPM CDNs - Zoom 0-7:
- - https://esm.sh/@freetiler/watercolor/tiles/{z}/{x}/{y}.jpg
- - https://unpkg.com/@freetiler/watercolor/tiles/{z}/{x}/{y}.jpg
+ - https://cdn.statically.io/gh/freetiler/watercolor/main/tiles/{z}/{x}/{y}.jpg
 ```
 
 ## Tile Specs:
@@ -35,7 +32,7 @@ NPM CDNs - Zoom 0-7:
 - **Projection Used**: EPSG:3857
 - **Tile Size**: 256x256
 - **Tile Format**: JPEG
-- **Attribution**: "FreeTiler.com | Map tiles by Stamen Design, under CC BY 4.0. Data by OpenStreetMap, under CC BY SA."
+- **Attribution**: "Map tiles by Stamen Design, under CC BY 4.0. Data by OpenStreetMap, under CC BY SA."
 
 ## License
 
